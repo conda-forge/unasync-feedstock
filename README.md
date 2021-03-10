@@ -119,4 +119,5 @@ Feedstock Maintainers
 =====================
 
 * [@davidbrochart](https://github.com/davidbrochart/)
+* [@sethmlarson](https://github.com/sethmlarson/)
 
