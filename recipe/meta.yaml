@@ -1,5 +1,5 @@
 {% set name = "unasync" %}
-{% set version = "0.5.0" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b675d87cf56da68bd065d3b7a67ac71df85591978d84c53083c20d79a7e5096d
+  sha256: a9d01ace3e1068b20550ab15b7f9723b15b8bcde728bc1770bcb578374c7ee58
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
