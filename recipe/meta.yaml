@@ -16,11 +16,12 @@ build:
 
 requirements:
   host:
-    - python >=3.5
+    - python >=3.8
     - pip
   run:
-    - python >=3.5
+    - python >=3.8
     - setuptools >=40.6.2
+    - tokenize-rt
 
 test:
   imports:
